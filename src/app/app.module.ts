@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { ComponentInteractionComponent } from './components/component-interaction/component-interaction.component';
 import { InteractionEventEmitterComponent } from './components/component-interaction/interaction-event-emitter/interaction-event-emitter.component';
 import { InteractionInputComponent } from './components/component-interaction/interaction-input/interaction-input.component';
+import { InteractionViewChildComponent } from './components/component-interaction/interaction-view-child/interaction-view-child.component';
 import { LifecycleHooksComponent } from './components/lifecycle-hooks/lifecycle-hooks.component';
 import { ViewEncapsulationComponent } from './components/view-encapsulation/view-encapsulation.component';
 
@@ -17,6 +18,7 @@ import { ViewEncapsulationComponent } from './components/view-encapsulation/view
     ComponentInteractionComponent,
     InteractionInputComponent,
     InteractionEventEmitterComponent,
+    InteractionViewChildComponent,
   ],
   imports: [
     BrowserModule,

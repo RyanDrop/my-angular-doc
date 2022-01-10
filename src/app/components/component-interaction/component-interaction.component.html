@@ -20,3 +20,12 @@ Filho emite para o pai (output).
 
 <mad-interaction-event-emitter [family]="family" (onFamilyChange)="addMemberInArray($event)"></mad-interaction-event-emitter>
 <p>O event emitter é usado para emitir eventos personalizados de forma síncrona ou assíncrona e registrar manipuladores para esses eventos assinando uma instância @Output</p>
+
+<p>O @ViewChild retorna o primeiro elemento que corresponde a um determinado componente, diretiva ou seletor de referência modelo para acessar uma diretiva, componente filho ou um elemento DOM de uma classe de componentes pai. </p>
+<input #nameInput type="text" placeholder="Name"/>
+
+<p>Observe que recuperamos o input através de Template variables (#nameInput) utilizando o @ViewChild, dessa forma após o lifecycle afterViewInit(Um gancho de ciclo de vida que é chamado depois que o Angular inicializou totalmente a visualização de um componente. Defina um ngAfterViewInit()método para lidar com quaisquer tarefas de inicialização adicionais) ser chamado o valor do input é preenchido com Ryan!, função chamada na execução do afterViewInit</p>
+
+<mad-interaction-view-child>Observe que o console trouxe a mensagem child method, ou seja chamamos o metódo do compomente filho no component pai, utilizadno o @ViewChild</mad-interaction-view-child>
+
+<p>Se a referência mudar dinamicamente para um novo elemento, o ViewChild irá atualizar sua referência automaticamente. Em casos em que você deseja acessar vários filhos, deve usar então o ViewChildren.</p>
