@@ -1,0 +1,15 @@
+<h1>Component interaction</h1>
+
+<p>Cenários comuns de interação entre dois ou mais componentes</p>
+<mad-interaction-input [name]="name" [age]="'7'"></mad-interaction-input>
+
+<p>
+  Decorator @Input marca a classe como uma propridade de entradae fornece
+  metadados de configuração. Durante a detecção de alterações, o Angular
+  atualiza automaticamente a propriedade de dados com o valor da propriedade
+  DOM.
+</p>
+<p>
+  O nome da propriedade DOM à qual a propriedade de entrada está associada.
+  <strong>bindingPropertyName?: string</strong>
+</p>
