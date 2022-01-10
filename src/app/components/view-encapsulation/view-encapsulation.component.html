@@ -1,0 +1,32 @@
+<h1>View encapsulation</h1>
+<p>
+  Encapsulamento: capacidade de manter a estrutura, o estilo e o comportamento
+  da marcação ocultos e separados de outro código na página para que diferentes
+  partes não entrem em conflito e o código possa ser mantido bonito e limpo
+</p>
+<p>
+  No Angular, os estilos de um componente podem ser encapsulados no elemento
+  host do componente para que não afetem o resto do aplicativo.
+</p>
+<p>
+  O @Component decorator de fornece a encapsulation opção que pode ser usada
+  para controlar como o encapsulamento é aplicado por componente.
+</p>
+<p>Sendo os modos:</p>
+
+<ul>
+  <li>ViewEncapsulation.ShadowDom</li>
+  <li>ViewEncapsulation.Emulated</li>
+  <li>ViewEncapsulation.None</li>
+</ul>
+
+<p><strong>OBS:</strong> Por padrão "ViewEncapsulation.Emulated"</p>
+<p>
+  ViewEncapsulation.ShadowDom só funciona em navegadores que tenham suporte
+  embutido para o Shadow DOM
+</p>
+<p>
+  Shadow DOM: é uma tecnologia do navegador projetada para podermos criar
+  componentes que contém uma aparência e comportamento sem influenciar os demais
+  elementos a sua volta, escondendo sua estrutura.
+</p>
