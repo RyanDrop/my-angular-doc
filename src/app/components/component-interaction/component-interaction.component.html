@@ -13,3 +13,10 @@
   O nome da propriedade DOM à qual a propriedade de entrada está associada.
   <strong>bindingPropertyName?: string</strong>
 </p>
+<p>
+Pai emite para o filho (input);
+Filho emite para o pai (output).
+</p>
+
+<mad-interaction-event-emitter [family]="family" (onFamilyChange)="addMemberInArray($event)"></mad-interaction-event-emitter>
+<p>O event emitter é usado para emitir eventos personalizados de forma síncrona ou assíncrona e registrar manipuladores para esses eventos assinando uma instância @Output</p>
