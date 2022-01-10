@@ -16,7 +16,7 @@ export class InteractionEventEmitterComponent implements OnInit{
    }
 
     addMember() {
-      this.onFamilyChange.emit(["Ryan"]);
+      this.onFamilyChange.emit("Ryan");
     }
 }
 
