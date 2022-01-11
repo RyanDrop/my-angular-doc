@@ -1,0 +1,33 @@
+<h1>Components styles</h1>
+<p>
+  O encapsulamento de estilo padrão do Angular impede que estilos de componentes
+  afetem outros componentes, estilos globais afetam todos os componentes na
+  página. Isso inclui ::ng-deep, que promove um estilo de componente para um
+  estilo global.
+</p>
+
+<p>
+  :host => seletor de pseudo-classe pode ser usado para criar estilos que visam
+  o próprio elemento host, não afetam outros componentes como o pai.
+</p>
+
+<p>
+  :host-context => Use o :host-context() de pseudo-classe, que funciona
+  exatamente como a forma de função de :host(). O :host-context()seletor só é
+  útil quando combinado com outro seletor.
+</p>
+
+<p>
+  :ng-deep => Qualquer estilo ::ng-deepaplicado se torna um estilo global. Para
+  definir o escopo do estilo especificado para o componente atual, inclua o
+  :host antes de ::ng-deep. Se o ::ng-deep for usado sem o :host de
+  pseudoclasse, o estilo pode chegar em outros componentes. Use deep, >>> e
+  ::ng-deep somente com encapsulamento de exibição emulado .
+</p>
+
+<p>Carregamento de estilos:</p>
+<ul>
+  <li>Por configuração styles ou styleUrls metadados.</li>
+  <li>Inline no modelo HTML.</li>
+  <li>Com importações CSS.</li>
+</ul>

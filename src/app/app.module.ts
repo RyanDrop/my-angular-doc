@@ -8,6 +8,7 @@ import { InteractionInputComponent } from './components/component-interaction/in
 import { InteractionViewChildComponent } from './components/component-interaction/interaction-view-child/interaction-view-child.component';
 import { LifecycleHooksComponent } from './components/lifecycle-hooks/lifecycle-hooks.component';
 import { ViewEncapsulationComponent } from './components/view-encapsulation/view-encapsulation.component';
+import { ComponentStylesComponent } from './components/component-styles/component-styles.component';
 
 
 @NgModule({
@@ -19,6 +20,7 @@ import { ViewEncapsulationComponent } from './components/view-encapsulation/view
     InteractionInputComponent,
     InteractionEventEmitterComponent,
     InteractionViewChildComponent,
+    ComponentStylesComponent,
   ],
   imports: [
     BrowserModule,
