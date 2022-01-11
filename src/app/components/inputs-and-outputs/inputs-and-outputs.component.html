@@ -1,0 +1,16 @@
+<mad-input-child
+  [inputExample]="'Inputs and Outputs'"
+  [inputExplication]="inputExplication"
+></mad-input-child>
+
+<mad-output-child (newItem)="addItem($event)"></mad-output-child>
+
+<ul *ngFor="let item of items">
+  <li>{{ item }}</li>
+</ul>
+
+<p>
+  O decorator @Output marca uma propriedade em um componente filho como uma
+  porta através da qual os dados podem viajar do filho para o pai. O componente
+  filho usa a propriedade para gerar um evento para notificar o pai da mudança.
+</p>
