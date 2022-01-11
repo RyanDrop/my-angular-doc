@@ -14,6 +14,7 @@ import { InputChildComponent } from './components/inputs-and-outputs/input-child
 import { OutputChildComponent } from './components/inputs-and-outputs/output-child/output-child.component';
 import { ContentProjectionComponent } from './components/content-projection/content-projection.component';
 import { ContentProjectionExampleComponent } from './components/content-projection/content-projection-example/content-projection-example.component';
+import { DynamicComponentComponent } from './components/dynamic-component/dynamic-component.component';
 
 
 @NgModule({
@@ -31,6 +32,7 @@ import { ContentProjectionExampleComponent } from './components/content-projecti
     OutputChildComponent,
     ContentProjectionComponent,
     ContentProjectionExampleComponent,
+    DynamicComponentComponent,
   ],
   imports: [
     BrowserModule,
