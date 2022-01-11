@@ -12,6 +12,8 @@ import { ComponentStylesComponent } from './components/component-styles/componen
 import { InputsAndOutputsComponent } from './components/inputs-and-outputs/inputs-and-outputs.component';
 import { InputChildComponent } from './components/inputs-and-outputs/input-child/input-child.component';
 import { OutputChildComponent } from './components/inputs-and-outputs/output-child/output-child.component';
+import { ContentProjectionComponent } from './components/content-projection/content-projection.component';
+import { ContentProjectionExampleComponent } from './components/content-projection/content-projection-example/content-projection-example.component';
 
 
 @NgModule({
@@ -27,6 +29,8 @@ import { OutputChildComponent } from './components/inputs-and-outputs/output-chi
     InputsAndOutputsComponent,
     InputChildComponent,
     OutputChildComponent,
+    ContentProjectionComponent,
+    ContentProjectionExampleComponent,
   ],
   imports: [
     BrowserModule,

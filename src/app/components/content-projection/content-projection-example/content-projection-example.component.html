@@ -1,0 +1,12 @@
+<ng-content></ng-content>
+<ng-content select="[paragraph]"></ng-content>
+<ng-container ngProjectAs="[autoComplete]">
+  <p>
+    O ng-containerelemento é uma construção lógica usada para agrupar outros
+    elementos DOM; no entanto, o ng-container não é renderizado na árvore DOM.
+    Neste exemplo, o conteúdo que queremos projetar reside dentro de outro
+    elemento. Para projetar esse conteúdo conforme pretendido, o modelo usa o
+    ngProjectAsatributo. Com ngProjectAs, todo o ng-container é projetado em um
+    componente usando o [autoComplete].
+  </p>
+</ng-container>
