@@ -15,6 +15,8 @@ import { OutputChildComponent } from './components/inputs-and-outputs/output-chi
 import { ContentProjectionComponent } from './components/content-projection/content-projection.component';
 import { ContentProjectionExampleComponent } from './components/content-projection/content-projection-example/content-projection-example.component';
 import { DynamicComponentComponent } from './components/dynamic-component/dynamic-component.component';
+import { AngularElementsComponent } from './components/angular-elements/angular-elements.component';
+import { TextInterpolationComponent } from './templates/text-interpolation/text-interpolation.component';
 
 
 @NgModule({
@@ -33,6 +35,8 @@ import { DynamicComponentComponent } from './components/dynamic-component/dynami
     ContentProjectionComponent,
     ContentProjectionExampleComponent,
     DynamicComponentComponent,
+    AngularElementsComponent,
+    TextInterpolationComponent,
   ],
   imports: [
     BrowserModule,
