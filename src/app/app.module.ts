@@ -19,6 +19,7 @@ import { AngularElementsComponent } from './components/angular-elements/angular-
 import { TextInterpolationComponent } from './templates/text-interpolation/text-interpolation.component';
 import { TemplateStatementsComponent } from './templates/template-statements/template-statements.component';
 import { PipesComponent } from './templates/pipes/pipes.component';
+import { PropertyBindingComponent } from './templates/property-binding/property-binding.component';
 
 
 @NgModule({
@@ -41,6 +42,7 @@ import { PipesComponent } from './templates/pipes/pipes.component';
     TextInterpolationComponent,
     TemplateStatementsComponent,
     PipesComponent,
+    PropertyBindingComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,24 @@
+<h1>Property binding</h1>
+<p>
+  O property binding (vinculação de propriedade) em Angular ajuda a definir
+  valores para propriedades de elementos ou diretivas HTML. Use a associação de
+  propriedade para funcionalidade do botão de alternância, definir caminhos
+  programaticamente, compartilhar valores entre componentes e etc.
+</p>
+<img [src]="imageSrc" [alt]="imageAlt" [width]="100" />
+
+<!-- <tr><td colspan="{{1 + 1}}">Three-Four</td></tr>  error -->
+
+<tr>
+  <td [colSpan]="1 + 1">Three-Four</td>
+</tr>
+
+<button (click)="toggleButton()">Toggle Disabled</button>
+<button [disabled]="isDisabled">Button</button>
+
+<p>
+  Muitas vezes , a interpolação e a vinculação de propriedades podem obter os
+  mesmos resultados. Os pares de ligação a seguir fazem a mesma coisa. É o caso
+  das imagens, no entanto, ao definir uma propriedade de elemento para um valor
+  de dados não string, deve-se usar a associação de propriedade.
+</p>
