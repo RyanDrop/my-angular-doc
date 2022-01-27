@@ -17,6 +17,7 @@ import { ContentProjectionExampleComponent } from './components/content-projecti
 import { DynamicComponentComponent } from './components/dynamic-component/dynamic-component.component';
 import { AngularElementsComponent } from './components/angular-elements/angular-elements.component';
 import { TextInterpolationComponent } from './templates/text-interpolation/text-interpolation.component';
+import { TemplateStatementsComponent } from './templates/template-statements/template-statements.component';
 
 
 @NgModule({
@@ -37,6 +38,7 @@ import { TextInterpolationComponent } from './templates/text-interpolation/text-
     DynamicComponentComponent,
     AngularElementsComponent,
     TextInterpolationComponent,
+    TemplateStatementsComponent,
   ],
   imports: [
     BrowserModule,
