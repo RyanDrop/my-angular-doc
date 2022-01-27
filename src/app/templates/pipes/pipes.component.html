@@ -1,0 +1,23 @@
+<h1>Pipes</h1>
+<p>
+  Use pipes para transformar strings, valores monetários, datas e outros dados
+  para exibição. Pipes são funções simples para usar em expressões de modelo
+  para aceitar um valor de entrada e retornar um valor transformado.
+</p>
+
+<p>
+  DatePipe - Formata uma data para o formato escolhido, podendo receber format,
+  timezone e locale. Exemplo no formato short =>
+  {{ datePipe | date: "short" }}
+</p>
+
+<p>
+  UpperCasePipe transforma o texto em letras maiúsculas. Exemplo Hello World =>
+  {{ "Hello World" | uppercase }}
+</p>
+
+<p>
+  CurrencyPipe - Formata um valor monetário para o formato escolhido, podendo
+  receber format, currency e locale. Exemplo no formato BRL 799 =>
+  {{ 799 | currency: "BRL" }}
+</p>

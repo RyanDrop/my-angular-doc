@@ -18,6 +18,7 @@ import { DynamicComponentComponent } from './components/dynamic-component/dynami
 import { AngularElementsComponent } from './components/angular-elements/angular-elements.component';
 import { TextInterpolationComponent } from './templates/text-interpolation/text-interpolation.component';
 import { TemplateStatementsComponent } from './templates/template-statements/template-statements.component';
+import { PipesComponent } from './templates/pipes/pipes.component';
 
 
 @NgModule({
@@ -39,6 +40,7 @@ import { TemplateStatementsComponent } from './templates/template-statements/tem
     AngularElementsComponent,
     TextInterpolationComponent,
     TemplateStatementsComponent,
+    PipesComponent,
   ],
   imports: [
     BrowserModule,
