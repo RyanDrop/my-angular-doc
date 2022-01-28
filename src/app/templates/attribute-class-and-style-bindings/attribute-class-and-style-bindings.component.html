@@ -1,0 +1,22 @@
+<h1>Attribute, class, and style bindings</h1>
+<p>
+  A associação de atributos em Angular ajuda você a definir valores para
+  atributos diretamente. Com a associação de atributos, você pode melhorar a
+  acessibilidade, estilizar seu aplicativo dinamicamente e gerenciar várias
+  classes ou estilos CSS simultaneamente.
+</p>
+
+<p [attr.colorGold]="true">P Gold</p>
+
+<p>
+  ARIA (Accessible Rich Internet Applications) é um conjunto de atributos que
+  definem maneiras de tornar o conteúdo da web e os aplicativos da web mais
+  acessíveis para pessoas com deficiência.
+</p>
+
+<button [attr.aria-label]="actionName">{{ actionName }} with Aria</button>
+
+<div [style]="divStyles">
+  <h3 [style.background-color]="'yellow'">dash-case {{ title }}</h3>
+  <h3 [style.backgroundColor]="'yellow'">camelCase</h3>
+</div>

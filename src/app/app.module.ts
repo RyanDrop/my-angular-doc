@@ -20,6 +20,7 @@ import { TextInterpolationComponent } from './templates/text-interpolation/text-
 import { TemplateStatementsComponent } from './templates/template-statements/template-statements.component';
 import { PipesComponent } from './templates/pipes/pipes.component';
 import { PropertyBindingComponent } from './templates/property-binding/property-binding.component';
+import { AttributeClassAndStyleBindingsComponent } from './templates/attribute-class-and-style-bindings/attribute-class-and-style-bindings.component';
 
 
 @NgModule({
@@ -43,6 +44,7 @@ import { PropertyBindingComponent } from './templates/property-binding/property-
     TemplateStatementsComponent,
     PipesComponent,
     PropertyBindingComponent,
+    AttributeClassAndStyleBindingsComponent,
   ],
   imports: [
     BrowserModule,
