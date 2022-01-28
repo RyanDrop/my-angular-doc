@@ -23,6 +23,7 @@ import { PropertyBindingComponent } from './templates/property-binding/property-
 import { TemplateStatementsComponent } from './templates/template-statements/template-statements.component';
 import { TextInterpolationComponent } from './templates/text-interpolation/text-interpolation.component';
 import { TwoWayBindingComponent } from './templates/two-way-binding/two-way-binding.component';
+import { TemplateReferenceVariablesComponent } from './templates/template-reference-variables/template-reference-variables.component';
 
 @NgModule({
   declarations: [
@@ -47,6 +48,7 @@ import { TwoWayBindingComponent } from './templates/two-way-binding/two-way-bind
     PropertyBindingComponent,
     AttributeClassAndStyleBindingsComponent,
     TwoWayBindingComponent,
+    TemplateReferenceVariablesComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, FormsModule],
   providers: [],

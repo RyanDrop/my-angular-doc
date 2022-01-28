@@ -1,0 +1,23 @@
+<h1>Template reference variables</h1>
+
+<p>
+  As variáveis ​​de modelo ajudam a usar dados de uma parte de um modelo em
+  outra parte do modelo. Use variáveis ​​de modelo para executar tarefas como
+  responder à entrada do usuário ou ajustar os formulários do seu aplicativo.
+</p>
+
+<input #taskInput type="text" />
+<button (click)="addTask(taskInput.value)">Adicionar tarefa</button>
+
+<div *ngFor="let task of tasks">
+  <div class="task">
+    <p>{{ task }}</p>
+    <input type="checkbox" />
+  </div>
+</div>
+
+<p>
+  No exemplo criei uma variável de referencia no input. Ao clicar no botão,
+  chama o método addTask passando como parametro o valor do input, que é pego
+  através da referência.
+</p>
