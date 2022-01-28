@@ -1,0 +1,18 @@
+<h1>SVG as template</h1>
+
+<p>
+  Você pode usar arquivos SVG como modelos em seus aplicativos Angular. Ao usar
+  um SVG como modelo, você pode usar diretivas e associações como nos modelos
+  HTML. Use esses recursos para gerar gráficos interativos dinamicamente.
+</p>
+
+<svg [style.height]="'100px'">
+  <rect
+    width="100"
+    height="100"
+    [attr.fill]="fillColor"
+    (click)="changeColor()"
+  />
+</svg>
+<p>Color {{ fillColor }}</p>
+<p>click the rectangle to change the fill color</p>

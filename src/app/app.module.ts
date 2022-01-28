@@ -24,6 +24,7 @@ import { TemplateStatementsComponent } from './templates/template-statements/tem
 import { TextInterpolationComponent } from './templates/text-interpolation/text-interpolation.component';
 import { TwoWayBindingComponent } from './templates/two-way-binding/two-way-binding.component';
 import { TemplateReferenceVariablesComponent } from './templates/template-reference-variables/template-reference-variables.component';
+import { SvgAsTemplateComponent } from './templates/svg-as-template/svg-as-template.component';
 
 @NgModule({
   declarations: [
@@ -49,6 +50,7 @@ import { TemplateReferenceVariablesComponent } from './templates/template-refere
     AttributeClassAndStyleBindingsComponent,
     TwoWayBindingComponent,
     TemplateReferenceVariablesComponent,
+    SvgAsTemplateComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, FormsModule],
   providers: [],
