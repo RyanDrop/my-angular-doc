@@ -1,27 +1,28 @@
 import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { AngularElementsComponent } from './components/angular-elements/angular-elements.component';
 import { ComponentInteractionComponent } from './components/component-interaction/component-interaction.component';
 import { InteractionEventEmitterComponent } from './components/component-interaction/interaction-event-emitter/interaction-event-emitter.component';
 import { InteractionInputComponent } from './components/component-interaction/interaction-input/interaction-input.component';
 import { InteractionViewChildComponent } from './components/component-interaction/interaction-view-child/interaction-view-child.component';
+import { ComponentStylesComponent } from './components/component-styles/component-styles.component';
+import { ContentProjectionExampleComponent } from './components/content-projection/content-projection-example/content-projection-example.component';
+import { ContentProjectionComponent } from './components/content-projection/content-projection.component';
+import { DynamicComponentComponent } from './components/dynamic-component/dynamic-component.component';
+import { InputChildComponent } from './components/inputs-and-outputs/input-child/input-child.component';
+import { InputsAndOutputsComponent } from './components/inputs-and-outputs/inputs-and-outputs.component';
+import { OutputChildComponent } from './components/inputs-and-outputs/output-child/output-child.component';
 import { LifecycleHooksComponent } from './components/lifecycle-hooks/lifecycle-hooks.component';
 import { ViewEncapsulationComponent } from './components/view-encapsulation/view-encapsulation.component';
-import { ComponentStylesComponent } from './components/component-styles/component-styles.component';
-import { InputsAndOutputsComponent } from './components/inputs-and-outputs/inputs-and-outputs.component';
-import { InputChildComponent } from './components/inputs-and-outputs/input-child/input-child.component';
-import { OutputChildComponent } from './components/inputs-and-outputs/output-child/output-child.component';
-import { ContentProjectionComponent } from './components/content-projection/content-projection.component';
-import { ContentProjectionExampleComponent } from './components/content-projection/content-projection-example/content-projection-example.component';
-import { DynamicComponentComponent } from './components/dynamic-component/dynamic-component.component';
-import { AngularElementsComponent } from './components/angular-elements/angular-elements.component';
-import { TextInterpolationComponent } from './templates/text-interpolation/text-interpolation.component';
-import { TemplateStatementsComponent } from './templates/template-statements/template-statements.component';
+import { AttributeClassAndStyleBindingsComponent } from './templates/attribute-class-and-style-bindings/attribute-class-and-style-bindings.component';
 import { PipesComponent } from './templates/pipes/pipes.component';
 import { PropertyBindingComponent } from './templates/property-binding/property-binding.component';
-import { AttributeClassAndStyleBindingsComponent } from './templates/attribute-class-and-style-bindings/attribute-class-and-style-bindings.component';
-
+import { TemplateStatementsComponent } from './templates/template-statements/template-statements.component';
+import { TextInterpolationComponent } from './templates/text-interpolation/text-interpolation.component';
+import { TwoWayBindingComponent } from './templates/two-way-binding/two-way-binding.component';
 
 @NgModule({
   declarations: [
@@ -45,12 +46,10 @@ import { AttributeClassAndStyleBindingsComponent } from './templates/attribute-c
     PipesComponent,
     PropertyBindingComponent,
     AttributeClassAndStyleBindingsComponent,
+    TwoWayBindingComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  imports: [BrowserModule, AppRoutingModule, FormsModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
