@@ -1,0 +1,11 @@
+:host {
+  div.nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background: #ccc;
+    a.active {
+      color: white;
+    }
+  }
+}

@@ -26,3 +26,14 @@
   NgSwitch = um conjunto de diretivas que alternam entre visões alternativas.
 </p>
 
+<div class="nav">
+  <a [class.active]="aba === 'home'" (click)="aba = 'home'">home</a>
+  <a [class.active]="aba === 'about'" (click)="aba = 'about'">about</a>
+  <a [class.active]="aba === 'contact'" (click)="aba = 'contact'">contact</a>
+</div>
+
+<div [ngSwitch]="aba">
+  <div *ngSwitchDefault>show home</div>
+  <div *ngSwitchCase="'about'">show about</div>
+  <div *ngSwitchCase="'contact'">show contact</div>
+</div>
