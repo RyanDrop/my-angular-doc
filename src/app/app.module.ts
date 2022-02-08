@@ -17,14 +17,16 @@ import { InputsAndOutputsComponent } from './components/inputs-and-outputs/input
 import { OutputChildComponent } from './components/inputs-and-outputs/output-child/output-child.component';
 import { LifecycleHooksComponent } from './components/lifecycle-hooks/lifecycle-hooks.component';
 import { ViewEncapsulationComponent } from './components/view-encapsulation/view-encapsulation.component';
+import { AttributeDirectivesComponent } from './directives/attribute-directives/attribute-directives.component';
+import { StructuralDirectivesComponent } from './directives/structural-directives/structural-directives.component';
 import { AttributeClassAndStyleBindingsComponent } from './templates/attribute-class-and-style-bindings/attribute-class-and-style-bindings.component';
 import { PipesComponent } from './templates/pipes/pipes.component';
 import { PropertyBindingComponent } from './templates/property-binding/property-binding.component';
+import { SvgAsTemplateComponent } from './templates/svg-as-template/svg-as-template.component';
+import { TemplateReferenceVariablesComponent } from './templates/template-reference-variables/template-reference-variables.component';
 import { TemplateStatementsComponent } from './templates/template-statements/template-statements.component';
 import { TextInterpolationComponent } from './templates/text-interpolation/text-interpolation.component';
 import { TwoWayBindingComponent } from './templates/two-way-binding/two-way-binding.component';
-import { TemplateReferenceVariablesComponent } from './templates/template-reference-variables/template-reference-variables.component';
-import { SvgAsTemplateComponent } from './templates/svg-as-template/svg-as-template.component';
 
 @NgModule({
   declarations: [
@@ -51,6 +53,8 @@ import { SvgAsTemplateComponent } from './templates/svg-as-template/svg-as-templ
     TwoWayBindingComponent,
     TemplateReferenceVariablesComponent,
     SvgAsTemplateComponent,
+    AttributeDirectivesComponent,
+    StructuralDirectivesComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, FormsModule],
   providers: [],

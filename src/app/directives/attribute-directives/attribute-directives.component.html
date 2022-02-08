@@ -1,0 +1,11 @@
+<h1>Attribute directives</h1>
+<p>NgClass = adiciona ou remove um conjunto de classes CSS.</p>
+<div class="circle" [class.paint]="paint" (click)="onClick()"></div>
+<div
+  class="circle"
+  [ngClass]="{
+    'paint-ng': paint
+  }"
+  (click)="onClick()"
+></div>
+
