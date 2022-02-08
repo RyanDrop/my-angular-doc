@@ -1,0 +1,17 @@
+<h1>Structural directives</h1>
+<p>NgIf = cria ou descarta condicionalmente subviews do template.</p>
+
+<div *ngIf="showParagraph">
+  <p>Paragraph with ngIf</p>
+</div>
+
+<div [hidden]="showParagraph">
+  <p>Paragraph with hidden</p>
+</div>
+
+<button (click)="toggleShowParagraph()">Toggle Paragraph</button>
+<p>
+  Neste caso usar hidden é menos custoso que o ngIf, já que o NgIf altera a
+  árvore DOM (Atenção as questões de segurança, já que o hidden apenas esconde,
+  mas ele ainda existe e pode ser visto com inspec
+</p>
