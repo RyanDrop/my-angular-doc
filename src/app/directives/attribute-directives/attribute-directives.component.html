@@ -9,3 +9,11 @@
   (click)="onClick()"
 ></div>
 
+<p>NgStyle = adiciona ou remove um conjunto de estilos HTML.</p>
+<div
+  class="circle"
+  [ngStyle]="{
+    'background-color': paint ? 'orange' : 'black',
+    'border-color': 'red'
+  }"
+></div>
