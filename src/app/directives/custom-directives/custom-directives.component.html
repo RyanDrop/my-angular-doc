@@ -1,0 +1,21 @@
+<p madBackgroundYellow>Texto marelo com p</p>
+<h1 madBackgroundYellow>Texto marelo com h1</h1>
+
+<div madMouseHighlight>
+  <p>MouseHighlight</p>
+  <p>Host Listener and Host Binding</p>
+</div>
+
+<div [madFinalHighlight]="'pink'" [defaultColor]="'gray'">
+  <p>MouseHighlight</p>
+  <p>Input property</p>
+</div>
+
+<div *ngIf="show">
+  <p>NgIf</p>
+</div>
+<div *madNgElse="show">
+  <p>NgElse</p>
+</div>
+
+<button (click)="show = !show">Toggle ngIf and custom ngElse</button>

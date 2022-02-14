@@ -27,6 +27,11 @@ import { TemplateReferenceVariablesComponent } from './templates/template-refere
 import { TemplateStatementsComponent } from './templates/template-statements/template-statements.component';
 import { TextInterpolationComponent } from './templates/text-interpolation/text-interpolation.component';
 import { TwoWayBindingComponent } from './templates/two-way-binding/two-way-binding.component';
+import { BackgroundYellowDirective } from './directives/background-yellow.directive';
+import { CustomDirectivesComponent } from './directives/custom-directives/custom-directives.component';
+import { MouseHighlightDirective } from './directives/mouse-highlight.directive';
+import { FinalHighlightDirective } from './directives/final-highlight.directive';
+import { NgElseDirective } from './directives/ng-else.directive';
 
 @NgModule({
   declarations: [
@@ -55,6 +60,11 @@ import { TwoWayBindingComponent } from './templates/two-way-binding/two-way-bind
     SvgAsTemplateComponent,
     AttributeDirectivesComponent,
     StructuralDirectivesComponent,
+    BackgroundYellowDirective,
+    CustomDirectivesComponent,
+    MouseHighlightDirective,
+    FinalHighlightDirective,
+    NgElseDirective,
   ],
   imports: [BrowserModule, AppRoutingModule, FormsModule],
   providers: [],
