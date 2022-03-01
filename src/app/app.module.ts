@@ -18,7 +18,13 @@ import { OutputChildComponent } from './components/inputs-and-outputs/output-chi
 import { LifecycleHooksComponent } from './components/lifecycle-hooks/lifecycle-hooks.component';
 import { ViewEncapsulationComponent } from './components/view-encapsulation/view-encapsulation.component';
 import { AttributeDirectivesComponent } from './directives/attribute-directives/attribute-directives.component';
+import { BackgroundYellowDirective } from './directives/background-yellow.directive';
+import { CustomDirectivesComponent } from './directives/custom-directives/custom-directives.component';
+import { FinalHighlightDirective } from './directives/final-highlight.directive';
+import { MouseHighlightDirective } from './directives/mouse-highlight.directive';
+import { NgElseDirective } from './directives/ng-else.directive';
 import { StructuralDirectivesComponent } from './directives/structural-directives/structural-directives.component';
+import { StudyModule } from './module/study/study.module';
 import { AttributeClassAndStyleBindingsComponent } from './templates/attribute-class-and-style-bindings/attribute-class-and-style-bindings.component';
 import { PipesComponent } from './templates/pipes/pipes.component';
 import { PropertyBindingComponent } from './templates/property-binding/property-binding.component';
@@ -27,11 +33,6 @@ import { TemplateReferenceVariablesComponent } from './templates/template-refere
 import { TemplateStatementsComponent } from './templates/template-statements/template-statements.component';
 import { TextInterpolationComponent } from './templates/text-interpolation/text-interpolation.component';
 import { TwoWayBindingComponent } from './templates/two-way-binding/two-way-binding.component';
-import { BackgroundYellowDirective } from './directives/background-yellow.directive';
-import { CustomDirectivesComponent } from './directives/custom-directives/custom-directives.component';
-import { MouseHighlightDirective } from './directives/mouse-highlight.directive';
-import { FinalHighlightDirective } from './directives/final-highlight.directive';
-import { NgElseDirective } from './directives/ng-else.directive';
 
 @NgModule({
   declarations: [
@@ -66,7 +67,7 @@ import { NgElseDirective } from './directives/ng-else.directive';
     FinalHighlightDirective,
     NgElseDirective,
   ],
-  imports: [BrowserModule, AppRoutingModule, FormsModule],
+  imports: [BrowserModule, AppRoutingModule, FormsModule, StudyModule],
   providers: [],
   bootstrap: [AppComponent],
 })
