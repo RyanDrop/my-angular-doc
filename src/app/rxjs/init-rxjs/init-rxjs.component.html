@@ -1,0 +1,35 @@
+<h1>RXJS</h1>
+
+<p>Observables são coleções lazzy de valores</p>
+<p>
+  Observer consome os valores entregues por um observable, conjunto de retornos
+  da chamadam um para cada tipo de notificação, next, error e complete. Emissão
+</p>
+<p>
+  Subject é um tipo especial de observable que permite que valores sejam
+  multicast (possuir vários destinatários). Ao declarar um assunto nulo , você
+  sinaliza que o valor é irrelevante. Apenas o evento em si importa.
+</p>
+<p>
+  Behavior subject já possui um valor inicial, e realiza a emissão do último
+  valor recebido.
+</p>
+<p>
+  ReplaySubject é como um BehaviorSubject, armaze um determinado número de
+  valores de acordo com o que é passado no seu primeiro parâmetro, e como
+  segundo parâmetro um intervalo de tempo para esquecer o valor
+</p>
+<p>
+  AsyncSubject pega somente o último valor da execução, quando sua execução é
+  concluida, complete() é chamado.
+</p>
+<p>
+  Of Converte os argumentos em uma sequência observável. Ao contrário fromde ,
+  ele não faz nenhum nivelamento e emite cada argumento inteiro como uma
+  nextnotificação separada. Se receber um array ele emite o array inteiro.
+</p>
+<p>
+  From cria um Observable a partir de um Array, um objeto do tipo array, um
+  Promise, um objeto iterável ou um objeto do tipo Observable. Se receber um
+  array ele faz uma emissão para cada item do array.
+</p>

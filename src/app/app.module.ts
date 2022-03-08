@@ -25,6 +25,7 @@ import { MouseHighlightDirective } from './directives/mouse-highlight.directive'
 import { NgElseDirective } from './directives/ng-else.directive';
 import { StructuralDirectivesComponent } from './directives/structural-directives/structural-directives.component';
 import { StudyModule } from './module/study/study.module';
+import { InitRxjsComponent } from './rxjs/init-rxjs/init-rxjs.component';
 import { AttributeClassAndStyleBindingsComponent } from './templates/attribute-class-and-style-bindings/attribute-class-and-style-bindings.component';
 import { PipesComponent } from './templates/pipes/pipes.component';
 import { PropertyBindingComponent } from './templates/property-binding/property-binding.component';
@@ -66,6 +67,7 @@ import { TwoWayBindingComponent } from './templates/two-way-binding/two-way-bind
     MouseHighlightDirective,
     FinalHighlightDirective,
     NgElseDirective,
+    InitRxjsComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, FormsModule, StudyModule],
   providers: [],
