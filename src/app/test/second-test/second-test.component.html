@@ -1,0 +1,5 @@
+<input data-testid="input" [(ngModel)]="quoteText" />
+<app-submit-button
+  [hasText]="!quoteText"
+  (click)="sendData()"
+></app-submit-button>
