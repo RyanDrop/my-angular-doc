@@ -34,6 +34,9 @@ import { TemplateReferenceVariablesComponent } from './templates/template-refere
 import { TemplateStatementsComponent } from './templates/template-statements/template-statements.component';
 import { TextInterpolationComponent } from './templates/text-interpolation/text-interpolation.component';
 import { TwoWayBindingComponent } from './templates/two-way-binding/two-way-binding.component';
+import { FirstTestComponent } from './test/first-test/first-test.component';
+import { SecondTestComponent } from './test/second-test/second-test.component';
+import { ThirdTestComponent } from './test/third-test/third-test.component';
 
 @NgModule({
   declarations: [
@@ -67,6 +70,9 @@ import { TwoWayBindingComponent } from './templates/two-way-binding/two-way-bind
     MouseHighlightDirective,
     FinalHighlightDirective,
     NgElseDirective,
+    FirstTestComponent,
+    SecondTestComponent,
+    ThirdTestComponent,
     InitRxjsComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, FormsModule, StudyModule],
