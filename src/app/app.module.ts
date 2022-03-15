@@ -25,6 +25,7 @@ import { MouseHighlightDirective } from './directives/mouse-highlight.directive'
 import { NgElseDirective } from './directives/ng-else.directive';
 import { StructuralDirectivesComponent } from './directives/structural-directives/structural-directives.component';
 import { StudyModule } from './module/study/study.module';
+import { RoutesRoutingModule } from './routes/routes-routing.module';
 import { InitRxjsComponent } from './rxjs/init-rxjs/init-rxjs.component';
 import { AttributeClassAndStyleBindingsComponent } from './templates/attribute-class-and-style-bindings/attribute-class-and-style-bindings.component';
 import { PipesComponent } from './templates/pipes/pipes.component';
@@ -36,7 +37,9 @@ import { TextInterpolationComponent } from './templates/text-interpolation/text-
 import { TwoWayBindingComponent } from './templates/two-way-binding/two-way-binding.component';
 import { FirstTestComponent } from './test/first-test/first-test.component';
 import { SecondTestComponent } from './test/second-test/second-test.component';
+import { SubmitButtonComponent } from './test/second-test/submit-button/submit-button.component';
 import { ThirdTestComponent } from './test/third-test/third-test.component';
+
 
 @NgModule({
   declarations: [
@@ -72,10 +75,12 @@ import { ThirdTestComponent } from './test/third-test/third-test.component';
     NgElseDirective,
     FirstTestComponent,
     SecondTestComponent,
+    SubmitButtonComponent,
     ThirdTestComponent,
     InitRxjsComponent,
+   
   ],
-  imports: [BrowserModule, AppRoutingModule, FormsModule, StudyModule],
+  imports: [BrowserModule, AppRoutingModule, FormsModule, StudyModule, RoutesRoutingModule],
   providers: [],
   bootstrap: [AppComponent],
 })
