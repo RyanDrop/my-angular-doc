@@ -20,7 +20,7 @@
 
 </p>
 
-## :information_source: _Sobre_
+## :information*source: \_Sobre*
 
 <div align="center">
 
@@ -32,13 +32,13 @@ Angular é uma plataforma de aplicações web de código-fonte aberto e front-en
 
 <div align="center">
 
-| :globe_with_meridians: FrontEnd |
-| :-----------------------------: |
-[HTML 5](https://www.w3schools.com/html/) |
-| [CSS3](https://www.w3schools.com/css/) |
+|                      :globe_with_meridians: FrontEnd                      |
+| :-----------------------------------------------------------------------: |
+|                 [HTML 5](https://www.w3schools.com/html/)                 |
+|                  [CSS3](https://www.w3schools.com/css/)                   |
 | [JavaScript ES6](https://developer.mozilla.org/en-US/docs/Web/JavaScript) |
-| [TypeScript](https://www.typescriptlang.org/) |
-| [Angular](https://angular.io/) |
+|               [TypeScript](https://www.typescriptlang.org/)               |
+|                      [Angular](https://angular.io/)                       |
 
 </div>
 
@@ -54,15 +54,15 @@ Angular é uma plataforma de aplicações web de código-fonte aberto e front-en
 
 Desenvolvido com ❤️ por RyanDrop👋🏽 Meus Contatos!
 
-
-[![Linkedin Badge](https://img.shields.io/badge/-RyanDrop?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/ryan-nascimento-7204a4217/)
+[![Linkedin Badge](https://img.shields.io/badge/-RyanDrop?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/ryan-on/)
 [![Github Badge](https://img.shields.io/badge/-RyanDrop-000?style=flat-square&logo=Github&logoColor=white)](https://github.com/RyanDrop)
 [![Outlook Badge](https://img.shields.io/badge/-RyanDrop-0078d4?style=flat-square&logo=microsoft-outlook&logoColor=white)](mailto:ryangithub7509@gmail.com)
 
 </div>
 
 ---
-## :balance_scale: _Licença_
+
+## :balance*scale: \_Licença*
 
 <div align="center">
 
